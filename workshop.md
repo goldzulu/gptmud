@@ -1,0 +1,18 @@
+- create position table
+- add spawn function to PlayerSystem
+  - give player position
+  - add to client
+- create client player system to render players
+  - start with enter system to render sprite
+  - click listener to spawn
+  - define position system and change position
+- check that player has not already spawned
+  - cannot spawn at 0, 0
+- prevent players from spawning on each other
+- direction enum
+  - have to declare on client as well
+- move system
+  - check already spawned
+  - check new position is not blocked
+- attack during move
+  - add health table
