@@ -21,7 +21,7 @@ import { merge } from "rxjs";
 
 
 //AI Model
-const model = new OpenAI({ temperature: 0 , openAIApiKey: "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"});
+const model = new OpenAI({ temperature: 0 , openAIApiKey: ""});
 // const model = new OpenAI({ temperature: 0, model: 'gpt-4' });
 const tools = [
   //new SerpAPI(),
